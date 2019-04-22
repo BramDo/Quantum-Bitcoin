@@ -6,9 +6,11 @@ Start with two parties or nodes Alice and Bob share a Bell state or EPR pair. Wi
 Next Alice Bob invite Charlie to join the game and they agree that Charlie starts with a chance 1/3 to give him a fair chance.
 
 P(Alice)= 1/2*2/3 = 1/3
+
 P(Bob)  = 1/2*2/3 =1/3
 
 P(Charlie) = 1/3
+
 All chances are equal.
 We can make Bell state with H and Cnote gate, but we want to reuse the same circuit for all nodes or parties.
 So we start with 00 state -> ROTy (a|0>  + b|1>)0>
