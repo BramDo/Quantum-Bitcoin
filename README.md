@@ -13,7 +13,10 @@ P(Charlie) = 1/3
 
 All chances are equal.
 We can make Bell state with H and Cnote gate, but we want to reuse the same circuit for all nodes or parties.
+
 So we start with 00 state -> ROTy (a|0>  + b|1>)0>
+
 After Cnot                -> CNOT  a|00> + b|11>
+
 X gate                    -> X     a|01> + b|10>
 
